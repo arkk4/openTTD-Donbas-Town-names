@@ -6,6 +6,12 @@ grf {
 	min_compatible_version: 0;
 }
 
+town_names(single) {
+	{
+	 	text("ירושלים", 1),
+	 	text("צפת", 1),
+	}
+}
 
 town_names(one) {
 	{
@@ -47,12 +53,19 @@ town_names(two) {
 	}
 }
 
-town_names {
-	styles : string(STR_STYLES);
+town_names(combined) {
 	{
 	 	town_names(one,1)
 	}
 	{
 	 	town_names(two,1)
+	}
+}
+
+town_names {
+	styles : string(STR_STYLES);
+	{
+		town_names(combined, 1),
+		town_names(single, 1)
 	}
 }
