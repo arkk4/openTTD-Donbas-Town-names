@@ -1,0 +1,58 @@
+grf {
+	grfid: "ZH\01\01";
+	name: string(STR_GRF_NAME);
+	desc: string(STR_GRF_DESCRIPTION);
+	version: 0;
+	min_compatible_version: 0;
+}
+
+
+town_names(one) {
+	{
+	 	text("תל ", 1),
+	 	text("רמת ", 1),
+	 	text("גבעת ", 1),
+	 	text("גני ", 1),
+	 	text("יד ", 1),
+	 	text("בני ", 1),
+	 	text("כפר ", 1),
+	 	text("בית ", 1),
+	 	text("ניר ", 1),
+	 	text("מצפה ", 1),
+	 	text("מעלה ", 1),
+	 	text("קרית ", 1),
+	 	text("זכרון ", 1),
+	 	text("צור ", 1),
+	}
+}
+
+town_names(two) {
+	{
+	 	text("אביב", 1),
+	 	text("רם", 1),
+	 	text("יוסף", 1),
+	 	text("טל", 1),
+	 	text("בנימין", 1),
+	 	text("יעקב", 1),
+	 	text("דוד", 1),
+	 	text("ראם", 1),
+	 	text("סבא", 1),
+	 	text("משה", 1),
+	 	text("חיים", 1),
+	 	text("יהונתן", 1),
+	 	text("צבי", 1),
+	 	text("יעל", 1),
+	 	text("יאיר", 1),
+	 	text("אבשלום", 1),
+	}
+}
+
+town_names {
+	styles : string(STR_STYLES);
+	{
+	 	town_names(one,1)
+	}
+	{
+	 	town_names(two,1)
+	}
+}
