@@ -3,7 +3,7 @@
 
 # GRF name and description definitions
 STR_GRF_NAME        :{TITLE} {VERSION}
-STR_GRF_DESCRIPTION :{TITLE} מייצר שמות אקראים בסגנון ישראלי
+STR_GRF_DESCRIPTION :{TITLE} מייצר שמות ישובים ישראליים
 
 STR_STYLES		:ישראלי
 

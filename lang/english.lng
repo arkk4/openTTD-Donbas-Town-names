@@ -3,7 +3,7 @@
 
 # GRF name and description definitions
 STR_GRF_NAME        :{TITLE} {VERSION}
-STR_GRF_DESCRIPTION :{TITLE} Create random Israeli-style town names
+STR_GRF_DESCRIPTION :{TITLE} Create Israeli town names
 
 STR_STYLES		:Israeli
 
