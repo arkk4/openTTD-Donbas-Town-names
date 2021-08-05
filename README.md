@@ -1,6 +1,7 @@
 # OpenTTD-Israeli-Town-Names
 
 Adds Israeli town name generator to OpenTTD.
+
 In order to compile, just run
 
     nmlc.exe israel.nml
